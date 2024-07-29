@@ -1,0 +1,56 @@
+# Xcode
+.DS_Store
+*/build/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/.*
+
+# Swift Package Manager
+/.build/
+/Packages
+# Xcode automatically generates this directory with a .xcworkspace
+# file based on the Package.resolved file
+# You can safely ignore it.
+/xcuserdata/
+
+# CocoaPods
+Pods/
+DerivedData/
+.idea/
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+/.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Coverage
+*.xcresult
+
+# Provisioning Profiles
+*.mobileprovision
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+
+# Other
+*.swp
+*.swo
+*.orig
+
+# Swift PM
+.swiftpm/xcode/package.xcworkspace
