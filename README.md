@@ -15,9 +15,18 @@ The ImageSearchViewModel class handles the search logic using Swift's async/awai
 
 The ImageSearchViewModel includes a detectLanguage(for:) function that uses CFStringTokenizerCopyBestStringLanguage to determine the language of the query. The detected language is then used in the API request to fetch localized results.
 
-### 4. The ImageSearchAPI application follows the MVVM (Model-View-ViewModel) architecture, which separates the business logic, UI, and data binding into distinct layers.
+### 4. The application validates input search queries to ensure they are not empty and properly formatted. 
 
-### 5. The application validates input search queries to ensure they are not empty and properly formatted. 
+### 5. Support for both dark and light modes.
+
+### 6. The ImageSearchAPI application follows the MVVM (Model-View-ViewModel) architecture, which separates the business logic, UI, and data binding into distinct layers.
+
+### 7. Thoroughly tested main features
+
+The core functionalities have been rigorously tested using XCTest, including:
+
+- **Settings Tests:** Validation of default settings and update functionality.
+- **ViewModel Tests:** Verification of image search functionality with valid and empty queries.
    
 ## Build and launch the application
 To build and run the application you need to clone the repository and open the project using xcode. Launch the project in xcode. No additional libraries are required.
@@ -38,6 +47,10 @@ To build and run the application you need to clone the repository and open the p
 
 ## Test results
 <img width="300" alt="изображение" src="https://github.com/user-attachments/assets/53eb903d-fe5a-4051-9c84-b58e965b686c">
+
+## Improvements
+### Preserve Previously Loaded Images: 
+When loading additional images, the previously loaded images are no longer refreshed or replaced. This enhancement ensures a smoother user experience by maintaining the visibility of already loaded images while new images are being fetched.
 
 
 
