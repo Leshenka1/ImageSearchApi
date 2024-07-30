@@ -36,5 +36,8 @@ To build and run the application you need to clone the repository and open the p
 <img width="254" alt="изображение" src="https://github.com/user-attachments/assets/ba6138df-984d-43e9-aa0a-e024bd425ad5">
 <img width="256" alt="изображение" src="https://github.com/user-attachments/assets/6b6b986e-06f3-4a21-b42e-9f6a4784d550">
 
+## Test results
+<img width="300" alt="изображение" src="https://github.com/user-attachments/assets/53eb903d-fe5a-4051-9c84-b58e965b686c">
+
 
 
