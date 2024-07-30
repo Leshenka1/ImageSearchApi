@@ -20,6 +20,7 @@
 		7677246C2C58208E00FBBF4D /* ImageSearchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677246B2C58208E00FBBF4D /* ImageSearchSettings.swift */; };
 		7677247B2C5851C600FBBF4D /* ImageSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677247A2C5851C600FBBF4D /* ImageSearchViewModelTests.swift */; };
 		7677247D2C5851E600FBBF4D /* ImageSearchSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677247C2C5851E600FBBF4D /* ImageSearchSettingsTests.swift */; };
+		7677247F2C58EA2F00FBBF4D /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677247E2C58EA2F00FBBF4D /* ImageCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		767724712C58517C00FBBF4D /* ImageSearchAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSearchAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7677247A2C5851C600FBBF4D /* ImageSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewModelTests.swift; sourceTree = "<group>"; };
 		7677247C2C5851E600FBBF4D /* ImageSearchSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchSettingsTests.swift; sourceTree = "<group>"; };
+		7677247E2C58EA2F00FBBF4D /* ImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				7677245E2C57B1D600FBBF4D /* ImageModel.swift */,
 				767724602C57B23600FBBF4D /* ImageSearchViewModel.swift */,
+				7677247E2C58EA2F00FBBF4D /* ImageCellViewModel.swift */,
 				7677246B2C58208E00FBBF4D /* ImageSearchSettings.swift */,
 				767724622C57D32A00FBBF4D /* views */,
 				767724502C57B19800FBBF4D /* ImageSearchAPIApp.swift */,
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7677247F2C58EA2F00FBBF4D /* ImageCellViewModel.swift in Sources */,
 				767724532C57B19800FBBF4D /* ContentView.swift in Sources */,
 				7677245F2C57B1D600FBBF4D /* ImageModel.swift in Sources */,
 				7677246A2C57F1A200FBBF4D /* Settings.swift in Sources */,
