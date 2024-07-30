@@ -2,6 +2,8 @@
 ## Project description
 The ImageSearchAPI application allows users to search for images on demand using the Pixabay API. The application provides a convenient interface for entering search queries, setting the number of images and columns to display results. All results are displayed in a grid of images that can be viewed in real time.
 
+This application uses the [Pixabay API](https://pixabay.com/api/docs/) to fetch images.
+
 ## Program benefit
 ### 1. Users can customize the number of images to be fetched and the number of columns in the grid layout.
 
