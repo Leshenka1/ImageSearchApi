@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct SearchBar: View {
     @Binding var searchQuery: String
     var onSearch: () -> Void

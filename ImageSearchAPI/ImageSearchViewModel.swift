@@ -16,14 +16,22 @@ class ImageSearchViewModel: ObservableObject {
     
     func searchImages(query: String, numberOfImages: Int) async {
         guard !query.trimmingCharacters(in: .whitespaces).isEmpty else {
-            self.errorMessage = "Search query cannot be empty"
+            DispatchQueue.main.async {
+                self.errorMessage = "Search query cannot be empty"
+                self.noResults = true
+                self.images = []
+            }
             return
         }
         
         let languageCode = detectLanguage(for: query)
         
         guard let url = URL(string: "https://pixabay.com/api/?key=\(apiKey)&q=\(query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&image_type=photo&per_page=\(numberOfImages)&lang=\(languageCode)") else {
-            self.errorMessage = "Invalid URL"
+            DispatchQueue.main.async {
+                self.errorMessage = "Invalid URL"
+                self.noResults = true
+                self.images = []
+            }
             return
         }
         
